@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RESET DEFAULT VITE STYLES */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Force dark mode background by default on the HTML tag */
+  color-scheme: dark; 
+}
+
+/* Ensure the body takes up the full screen and doesn't center content */
+body {
+  margin: 0;
+  padding: 0;
+  display: block; /* Vite defaults this to 'flex' which centers everything - we want block! */
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0a0a; /* Matches your dark theme */
+  overflow-x: hidden; /* Prevents side-scrolling issues */
+}
+
+/* Ensure the root React div is also full size */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Vite defaults to center, we want left */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
