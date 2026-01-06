@@ -18,7 +18,7 @@ export const Achievements = () => {
         <div className="h-px bg-gray-800 flex-grow"></div>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {achievements.map((achievement, index) => (
           <motion.div 
             key={achievement.id}

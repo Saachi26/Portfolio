@@ -1,5 +1,5 @@
 import React from 'react';
- /* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars */
 import { motion } from 'framer-motion';
 import { skills } from '../data.jsx'; 
 
@@ -23,23 +23,19 @@ export const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="space-y-6 text-gray-300 leading-relaxed text-lg"
-      >
+        >
           <p>
-            Hi! I'm a <span className="text-white font-semibold">Full Stack Developer</span> and a <span className="text-white font-semibold">B.Tech student</span> whose primary focus is diving deep into <span className="text-violet-400 font-semibold">Artificial Intelligence, Machine Learning (ML), and Deep Learning (DL)</span>. I'm actively engaged in learning and applying these cutting-edge concepts.
+            I am an <span className="text-white font-semibold">Electronics & Communication Engineering</span> undergraduate with a specialized focus on <span className="text-violet-400 font-semibold">Computer Vision and Deep Learning</span>. 
           </p>
 
           <p>
-            My sweet spot is building scalable, real-world applications. I'm a huge fan of <span className="text-white">collaborating with teams</span> and bringing high-impact ideas to life, leveraging my core skills in Next.js, Node.js, and Python.
+            Unlike typical data scientists who stay in Jupyter Notebooks, I build end-to-end systems. My background in <span className="text-white font-semibold">Full-Stack Development</span> allows me to bridge the gap between complex ML models and user-friendly applications.
           </p>
 
           <p>
-            I've even had some cool wins—like creating the <span className="text-white">award-winning AI-Driven Writing Assistant</span> and the <span className="text-white">Eco-Friendly Geolocation Carpooling platform</span>.
+            Beyond coding, I am a <span className="text-violet-400">Technical Writer</span>. I document the mathematical foundations of AI—breaking down Calculus and Linear Algebra for the developer community.
           </p>
-
-          <p>
-            Ultimately, I'm driven to push boundaries by integrating intelligent systems into powerful web architecture.<span className="text-violet-400"> Let's create impactful solutions!</span>
-          </p>
-      </motion.div>
+        </motion.div>
 
         {/* Skills Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

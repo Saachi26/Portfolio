@@ -12,6 +12,7 @@ import { Education } from './components/Education.jsx'
 import { Hero } from './components/Hero.jsx'
 import { ContactFooter } from './components/ContactFooter.jsx';
 import { Achievements } from './components/Achievemnts.jsx';
+import { BlogSection } from './components/Blog.jsx';
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
       <Experience />
 
       <Projects />
+
+      <BlogSection/>
 
       <Achievements />
 
