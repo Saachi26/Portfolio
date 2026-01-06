@@ -44,9 +44,6 @@ export const Hero = () => {
           and <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-400 font-bold">scalable web architecture</span>.
         </motion.h2>
 
-        <motion.p variants={fadeInUp} className="text-gray-400 max-w-2xl mx-auto mb-10 text-lg">
-          Bridging the gap between complex <span className="text-gray-200">Deep Learning models</span> and user-friendly <span className="text-gray-200">Full-Stack applications</span>.
-        </motion.p>
         
         <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row justify-center gap-4 items-center">
           <a href="#projects" className="px-8 py-3 bg-violet-600 text-white rounded-full font-semibold hover:bg-violet-700 transition shadow-lg shadow-violet-500/25 w-full sm:w-auto">
@@ -55,15 +52,16 @@ export const Hero = () => {
           <a href="#contact" className="px-8 py-3 border border-white/20 rounded-full font-semibold hover:bg-white/10 hover:border-white/40 text-white transition w-full sm:w-auto">
             Contact Me
           </a>
-          {/* Added Resume Button - Crucial for Recruiters */}
+          
           <a 
-            href="/Saachi_Badal_ML_Resume.pdf" 
-            target="_blank" 
-            className="flex items-center gap-2 px-6 py-3 text-gray-300 hover:text-white transition w-full sm:w-auto justify-center"
-          >
-            <FileText size={20} />
-            <span className="underline decoration-violet-500 underline-offset-4">Resume</span>
-          </a>
+  href="https://drive.google.com/file/d/1dEWFMjrSMN8YjxK1ROzelOKiRTiPKHb0/view?usp=drive_link"// <--- PASTE DRIVE LINK HERE
+  target="_blank" 
+  rel="noopener noreferrer" // <--- Add this for security when opening external links
+  className="flex items-center gap-2 px-6 py-3 text-gray-300 hover:text-white transition w-full sm:w-auto justify-center"
+>
+  <FileText size={20} />
+  <span className="underline decoration-violet-500 underline-offset-4">Resume</span>
+</a>
         </motion.div>
       </motion.div>
 
